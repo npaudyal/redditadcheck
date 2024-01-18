@@ -1,8 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+require('dotenv').config();
 
 const app = express();
+const port = process.env.PORT;
 
 const isUnsafeContent = (title) => {
     // List of keywords related to unsafe or explicit content
