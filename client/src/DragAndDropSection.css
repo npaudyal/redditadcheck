@@ -1,0 +1,83 @@
+.drag-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 20px;
+  border: 2px dashed #ccc;
+  padding: 150px;
+  width: 50%;
+  margin: auto; 
+}
+
+.drag-drop-section {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.drag-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dropped-cards {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.dropped-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropped-card p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.dropped-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.dropped-card button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.dropped-card button:hover {
+  background-color: #d32f2f;
+}
+
+.safety-check-result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.safety-passed {
+  color: #4CAF50; 
+}
+
+.safety-failed {
+  color: #f44336;
+}
